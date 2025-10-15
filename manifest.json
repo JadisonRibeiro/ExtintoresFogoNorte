@@ -1,0 +1,21 @@
+{
+  "name": "Fogo Norte Extintores",
+  "short_name": "Fogo Norte",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#b22222",
+  "theme_color": "#b22222",
+  "description": "Venda, recarga e manutenção de extintores de incêndio no Pará.",
+  "icons": [
+    {
+      "src": "/image/Logofav.png",
+      "sizes": "64x64 128x128 256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/image/LogoNomeIcone.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

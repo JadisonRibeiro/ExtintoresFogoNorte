@@ -1,0 +1,48 @@
+# ================================================
+# Fogo Norte Extintores - robots.txt
+# Última atualização: 2025-10-11
+# ================================================
+# Este arquivo orienta mecanismos de busca sobre
+# quais áreas do site podem ser rastreadas e indexadas.
+# ================================================
+
+User-agent: *
+Allow: /
+Disallow: /pdf/
+Disallow: /backup/
+Disallow: /temp/
+Disallow: /cgi-bin/
+Disallow: /.git/
+Disallow: /admin/
+
+# Permitir acesso a recursos essenciais
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.webp$
+Allow: /*.svg$
+
+# ================================================
+# Sitemaps
+# ================================================
+Sitemap: https://fogonorteextintores.com.br/sitemap.xml
+Sitemap: https://fogonorteextintores.com.br/sitemap-imagens.xml
+
+# ================================================
+# Diretrizes adicionais para rastreadores
+# ================================================
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# ================================================
+# Observações
+# - PDFs foram bloqueados pois não precisam ser indexados.
+# - Garanta que os sitemaps estejam atualizados.
+# - Teste este arquivo em:
+#   https://www.google.com/webmasters/tools/robots-testing-tool
+# ================================================
